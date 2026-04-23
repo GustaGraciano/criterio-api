@@ -11,7 +11,7 @@ const ollama = new Ollama({
 });
 
 const sTemplate = fs.readFileSync(
-  path.resolve(process.cwd(), "docs", "criterio.md"),
+  path.resolve(process.cwd(), "src", "docs", "criterio.md"),
   "utf-8"
 );
 

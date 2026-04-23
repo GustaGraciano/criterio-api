@@ -2,7 +2,7 @@ import type { Request, Response } from "express";
 import { gerarResposta } from "../services/ollamaService.js";
 import type { CriterioDTO } from "../dtos/criterioDTO.js";
 
-export const chat = async (req: Request, res: Response) => {
+export const chat = async (req: Request, res: Response) => { 
   try {
     const dados = req.body as CriterioDTO;
 
