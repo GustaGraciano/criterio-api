@@ -1,0 +1,70 @@
+# Dependências
+
+node_modules/
+.pnp
+.pnp.js
+
+# Build / produção
+
+dist/
+build/
+.out/
+.next/
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+
+.env
+.env.*
+!.env.example
+
+# Sistema operacional
+
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos temporários
+
+*.tmp
+*.temp
+.cache/
+.eslintcache
+
+# TypeScript
+
+*.tsbuildinfo
+
+# Vite
+
+vite.config.ts.timestamp-*
+
+# Testes
+
+coverage/
+.nyc_output/
+
+# Banco local (Dexie / IndexedDB dumps, se exportar algo)
+
+*.sqlite
+*.db
+
+# Arquivos de upload
+
+uploads/
